@@ -46,13 +46,16 @@ Follow this process for your quiz:
     
     Most words in Pig Latin end in "ay." Use the 2 simple rules below to translate normal English into Pig Latin.
 
-    1. If a word starts with consonants move the consonants to the end of the word and add "ay."
+    - If a word starts with consonants move the consonants to the end of the word and add "ay."
     
-    2. If a word starts with a vowel add the word "way" at the end of the word.
+    - If a word starts with a vowel add the word "way" at the end of the word.
 
     It may be helpful to check out the [Ruby String page](http://ruby-doc.org/core-2.2.0/String.html). The list of **methods** on the left side of the page are all things that strings respond to.
 
-    Your code should work for as many english words as possible. I will try to break it! It should also ignore white space around the original input, so it should return "appleway" for both "apple" and "   apple  ".
+    Your code should work for as many english words as possible. I will try to break it! It should also handle some problems with user input:
+
+    - Ignore white space around the original input, so it should return "appleway" for both "apple" and "   apple  ".
+    - Ignore case, so it should return "appleway" for both "Apple" and "aPpLe"
 
 ## Testing
 

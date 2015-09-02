@@ -10,27 +10,13 @@ Install ruby dependencies
     $ bundle install
 ``` 
 
-## Testing
-
-Run the entire test suite
-
-```
-    $ ruby methods2_test.rb
-```
-
-Run only a specific test
-
-```
-    $ ruby methods2_test.rb --name type_test_method_name_here
-```
-
 ## Goal
 
 Write the following methods. Start with the tests, then use them to create your method.
 
-1. elevenish?
+1. has_teen?
 
-    A number is elevenish if it is a multiple of eleven or one greater than a multiple of eleven.
+    A number is a teen if it is in the range 13 to 19 inclusive. Given three integers, return true if any of them are a teen.
 2. ice_cream_party
 
     You are having a party with amounts of ice cream and candy. Return the int outcome of the party encoded as 0=bad, 1=good, or 2=great. A party is good (1) if both ice cream and candy are at least 5. However, if either ice cream or candy is at least double the amount of the other one, the party is great (2). However, in all cases, if either ice cream or candy is less than 5, the party is always bad (0).
@@ -50,10 +36,25 @@ Write the following methods. Start with the tests, then use them to create your 
 
     Given a string str, if the string starts with "f" return "Fizz". If the string ends with "b" return "Buzz". If both the "f" and "b" conditions are true, return "FizzBuzz". In all other cases, return the string unchanged.
 8. first_last_six?
-	Given an array of integers, return true if 6 appears as either the first or last element in the array. The array will be length 1 or more.
+    Given an array of integers, return true if 6 appears as either the first or last element in the array. The array will be length 1 or more.
 9. rotate_left
 
     Given an array of 3 integers, return an array with the elements "rotated left" so 1, 2, 3 yields 2, 3, 1.
 10. double23?
 
     Given an integer array, return true if the array contains 2 twice, or 3 twice. The array will have 0, 1, or 2 elements.
+
+
+## Testing
+
+Run the entire test suite
+
+```
+    $ ruby methods2_test.rb
+```
+
+Run only a specific test
+
+```
+    $ ruby methods2_test.rb --name type_test_method_name_here
+```

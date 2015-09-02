@@ -1,6 +1,6 @@
 module MethodsQuiz
 	
-	# TODO - write elevenish?
+	# TODO - write has_teen?
 	
 	# TODO - write ice_cream_party?
 	

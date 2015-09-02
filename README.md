@@ -20,9 +20,9 @@ Write the following methods. Start with the tests, then use them to create your 
 2. not_string
 
     Given a string, return a new string where "not" has been added to the front. However, if the string already begins with "not" return the original string unchanged.
-3. successful_squirrel_party?
+3. icy_hot?
 
-    When squirrels get together for a party, they like to have nuts. A squirrel party is successful when the number of nuts is between 40 and 60, inclusive. Unless it is the weekend, in which case there is no upper bound on the number of nuts. Return true if the party with the given values is successful, or false otherwise. 
+    Given two temperatures, it is icy_hot if one is less than 0 and the other is greater than 100.
 4. ticket
 
     You have a lottery ticket, with ints a, b, and c on it. This makes three pairs, which we'll call ab, bc, and ac. Consider the sum of the numbers in each pair. If any pair sums to exactly 10, the result is 10. Otherwise if the ab sum is exactly 10 more than either bc or ac sums, the result is 5. Otherwise the result is 0.

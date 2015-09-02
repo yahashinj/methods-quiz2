@@ -4,7 +4,7 @@ module MethodsQuiz
 	
 	# TODO - write not_string
 	
-	# TODO - write successful_squirrel_party?
+	# TODO - write icy_hot?
 	
 	# TODO - write ticket
 

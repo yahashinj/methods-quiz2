@@ -12,6 +12,16 @@ Install ruby dependencies
 
 Run the existing tests at least once to make sure there are no errors before writing any code.
 
+```
+    $ ruby methods_quiz_test.rb
+```
+
+Open the folder in a new sublime window
+
+```
+    $ subl .
+```
+
 ## Quiz
 
 Follow this process for your quiz:
@@ -21,8 +31,9 @@ Follow this process for your quiz:
 3. Use the tests to write the method. Red -> Green -> Refactor.
 4. Commit with message "method_name complete"
 5. Move on to the next method
-6. When done with your quiz run     
-    ```$ git push``` 
+6. When all done, run the entire test suite verify everything still works
+7. Turn it in with:
+    ```$ git push```
 
 ## Methods to Implement
 

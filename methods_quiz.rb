@@ -1,4 +1,4 @@
-module Methods2
+module MethodsQuiz
 	
 	# TODO - write elevenish?
 	

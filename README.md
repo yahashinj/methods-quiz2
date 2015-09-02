@@ -1,4 +1,4 @@
-# Methods2
+# Methods Quiz
 
 ## Setup
 
@@ -9,16 +9,6 @@ Install ruby dependencies
 ```
     $ bundle install
 ``` 
-
-### On Windows (and only at home):
-
-[Install ansicon](http://softkube.com/blog/ansi-command-line-colors-under-windows) (if not already installed)
-
-Install win32console
-
-```
-    $ gem install win32console
-```
 
 ## Testing
 

@@ -4,11 +4,13 @@ Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new
 
 require_relative 'methods2'
 
-class Methods2Test < MiniTest::Test
+class MethodsQuizTest < MiniTest::Test
 	def setup
 		@m = Class.new do
-     include Methods2
+     include MethodsQuiz
    	end.new
 	end
+
+	# TODO - write tests here
 
 end

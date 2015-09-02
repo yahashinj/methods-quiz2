@@ -35,7 +35,10 @@ Follow this process for your quiz:
 4. closer_to
 
     Given a target number and two guesses, return the guess that is closer to the target. If they are the same distance, return 0.
-5. pig_latinify
+5. two_as_one?
+
+    Given three integers, return true if it is possible to add two of the ints to get the third.
+6. pig_latinify
 
     Given a word, return its pig latin conversion. 
     

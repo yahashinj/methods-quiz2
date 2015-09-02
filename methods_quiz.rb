@@ -2,7 +2,7 @@ module MethodsQuiz
 	
 	# TODO - write has_teen?
 	
-	# TODO - write ice_cream_party?
+	# TODO - write not_string
 	
 	# TODO - write successful_squirrel_party?
 	

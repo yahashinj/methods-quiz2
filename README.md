@@ -17,9 +17,9 @@ Write the following methods. Start with the tests, then use them to create your 
 1. has_teen?
 
     A number is a teen if it is in the range 13 to 19 inclusive. Given three integers, return true if any of them are a teen.
-2. ice_cream_party
+2. not_string
 
-    You are having a party with amounts of ice cream and candy. Return the int outcome of the party encoded as 0=bad, 1=good, or 2=great. A party is good (1) if both ice cream and candy are at least 5. However, if either ice cream or candy is at least double the amount of the other one, the party is great (2). However, in all cases, if either ice cream or candy is less than 5, the party is always bad (0).
+    Given a string, return a new string where "not" has been added to the front. However, if the string already begins with "not" return the original string unchanged.
 3. successful_squirrel_party?
 
     When squirrels get together for a party, they like to have nuts. A squirrel party is successful when the number of nuts is between 40 and 60, inclusive. Unless it is the weekend, in which case there is no upper bound on the number of nuts. Return true if the party with the given values is successful, or false otherwise. 

@@ -16,11 +16,12 @@ Run the existing tests at least once to make sure there are no errors before wri
 
 Follow this process for your quiz:
 
-1. Write the tests for a method
+1. Write the tests for a method first!!
 2. Commit with message "Tests for method_name"
 3. Use the tests to write the method. Red -> Green -> Refactor.
 4. Commit with message "method_name complete"
-5. When done with your quiz run     
+5. Move on to the next method
+6. When done with your quiz run     
     ```$ git push``` 
 
 ## Methods to Implement
@@ -56,6 +57,7 @@ Follow this process for your quiz:
 
     - Ignore white space around the original input, so it should return "appleway" for both "apple" and "   apple  ".
     - Ignore case, so it should return "appleway" for both "Apple" and "aPpLe"
+    - **Extra Credit** | If a user types in a curse word pig_latinify should censor the result by replacing any vowel in the original word with an asterisk
 
 ## Testing
 

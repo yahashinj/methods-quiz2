@@ -6,18 +6,8 @@ module MethodsQuiz
 	
 	# TODO - write icy_hot?
 	
-	# TODO - write ticket
+	# TODO - write closer_to
 
-	# TODO - write in_order?
-
-	# TODO - write less_by_ten?
-	
-	# TODO - write fizz_string
-
-	# TODO - write first_last_six?
-
-	# TODO - write rotate_left
-
-	# TODO - write double23?
+	# TODO - write pig_latinify
 
 end

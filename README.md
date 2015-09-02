@@ -31,7 +31,7 @@ Follow this process for your quiz:
     Given a string, return a new string where "not" has been added to the front. However, if the string already begins with "not" return the original string unchanged.
 3. icy_hot?
 
-    Given two temperatures, it is icy_hot if one is less than 0 and the other is greater than 100.
+    It is icy if a temperature is less than zero, and it is hot if a temperature is greater than 100. Given two temperatures, return true if either one is icy and the other is hot.
 4. closer_to
 
     Given a target number and two guesses, return the guess that is closer to the target. If they are the same distance, return 0.

@@ -20,8 +20,7 @@ Follow this process for your quiz:
 2. Commit with message "Tests for method_name"
 3. Use the tests to write the method. Red -> Green -> Refactor.
 4. Commit with message "method_name complete"
-5. When done with your quiz run 
-    
+5. When done with your quiz run     
     ```$ git push``` 
 
 ## Methods to Implement

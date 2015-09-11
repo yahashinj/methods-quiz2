@@ -31,4 +31,7 @@ module MethodsQuiz2
 		end
 	end
 
+	def squirrels_playing?(temp, summer)
+		( temp >= 60 && temp <= 90 ) || ( summer && temp <= 100 && temp >= 60)
+	end
 end

@@ -28,9 +28,9 @@ class MethodsQuizTest < MiniTest::Test
 	end
 
 		def test_squirrels_playing?
-		assert_equal true, @m.quirrels_playing?(60, false)
-		assert_equal true, @m.quirrels_playing?(90, false)
-		assert_equal false, @m.quirrels_playing?(95, false)
-		assert_equal true, @m.quirrels_playing?(95, true)
+		assert_equal true, @m.squirrels_playing?(60, false)
+		assert_equal true, @m.squirrels_playing?(90, false)
+		assert_equal false, @m.squirrels_playing?(95, false)
+		assert_equal true, @m.squirrels_playing?(95, true)
 	end
 end

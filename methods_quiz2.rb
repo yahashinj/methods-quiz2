@@ -8,6 +8,7 @@ module MethodsQuiz2
 				roll_two = roll_two + 1
 			end
 		end
+		return roll_one + roll_two
 	end
 	
 	def doubles?(n,m)

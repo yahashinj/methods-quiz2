@@ -27,7 +27,10 @@ class MethodsQuizTest < MiniTest::Test
 		assert_equal 20, @m.max_maybe(17, 20)
 	end
 
-	def squirrels_playing?
-		
+		def test_squirrels_playing?
+		assert_equal true, @m.quirrels_playing?(60, false)
+		assert_equal true, @m.quirrels_playing?(90, false)
+		assert_equal false, @m.quirrels_playing?(95, false)
+		assert_equal true, @m.quirrels_playing?(95, true)
 	end
 end

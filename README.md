@@ -55,11 +55,11 @@ Follow this process for your quiz:
 Run the entire test suite
 
 ```
-    $ ruby methods_quiz_test.rb
+    $ ruby methods_quiz2_test.rb
 ```
 
 Run only a specific test
 
 ```
-    $ ruby methods_quiz_test.rb --name test_method_name
+    $ ruby methods_quiz2_test.rb --name test_method_name
 ```

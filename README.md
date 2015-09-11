@@ -1,4 +1,4 @@
-# Methods Quiz
+# Methods Quiz 2
 
 ## Setup
 
@@ -37,38 +37,18 @@ Follow this process for your quiz:
 
 ## Methods to Implement
 
-1. has_teen?
+1. without_doubles
 
-    A number is a teen if it is in the range 13 to 19 inclusive. Given three integers, return true if any of them are a teen.
-2. not_string
+    Return the sum of two 6-sided dice rolls, each in the range 1..6. However, if noDoubles is true, if the two dice show the same value, increment one die to the next value, wrapping around to 1 if its value was 6.
+2. max_maybe
 
-    Given a string, return a new string where "not" has been added to the front. However, if the string already begins with "not" return the original string unchanged.
-3. icy_hot?
+    Given two integer values, return whichever value is larger. However if the two values have the same remainder when divided by 5, then the return the smaller value. However, in all cases, if the two values are the same, return 0.
+3. squirrels_play?
 
-    It is icy if a temperature is less than zero, and it is hot if a temperature is greater than 100. Given two temperatures, return true if either one is icy and the other is hot.
-4. closer_to
+    The squirrels in Highlands Ranch spend most of the day playing. In particular, they play if the temperature is between 60 and 90 (inclusive). Unless it is summer, then the upper limit is 100 instead of 90.
+4. red_ticket
 
-    Given a target number and two guesses, return the guess that is closer to the target. If they are the same distance, return 0.
-5. two_as_one?
-
-    Given three integers, return true if it is possible to add two of the ints to get the third.
-6. pig_latinify
-
-    Given a word, return its pig latin conversion. 
-    
-    Most words in Pig Latin end in "ay." Use the 2 simple rules below to translate normal English into Pig Latin.
-
-    - If a word starts with consonants move the consonants to the end of the word and add "ay."
-    
-    - If a word starts with a vowel add the word "way" at the end of the word.
-
-    It may be helpful to check out the [Ruby String page](http://ruby-doc.org/core-2.2.0/String.html). The list of **methods** on the left side of the page are all things that strings respond to.
-
-    Your code should work for as many english words as possible. I will try to break it! It should also handle some problems with user input:
-
-    - Ignore white space around the original input, so it should return "appleway" for both "apple" and "   apple  ".
-    - Ignore case, so it should return "appleway" for both "Apple" and "aPpLe"
-    - **Extra Credit** | If a user types in a curse word pig_latinify should censor the result by replacing any vowel in the original word with an asterisk
+    You have a red lottery ticket showing ints a, b, and c, each of which is 0, 1, or 2. If they are all the value 2, the result is 10. Otherwise if they are all the same, the result is 5. Otherwise so long as both b and c are different from a, the result is 1. Otherwise the result is 0. 
 
 ## Testing
 
